@@ -1,0 +1,106 @@
+body  
+    { margin: 0; 
+    padding: 0; 
+    font-family: sans-serif; 
+    font-size: 14px;}
+#map 
+    { position: absolute; top: 0; bottom: 0; width: 100%; }
+li 
+    { padding: 3px 0;}
+#panel 
+    {background: white; 
+    width: 350px; 
+    border: 1px solid rgba(0,0,0,0.05);
+    position:absolute;
+    right: 16px;  /* from right*/
+    top: 16px;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.1);
+    color: rgba(0,0,0,0.5)}
+h4 
+    {text-transform: uppercase;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    margin: 0px;
+    padding: 16px}
+ul 
+    {list-style-type: none;
+    margin: 0;
+    padding: 16px;}
+ul span
+    {width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-right: 8px;
+    border-radius: 50%;
+    border: 1px solid  rgba(0,0,0,0.05);
+    box-sizing: border-box}
+dd 
+    {margin-left: 0;
+    margin-bottom: 8px;
+    font-weight: bold;}
+dl 
+    {margin-bottom: 0px;}
+.mapboxgl-popup-content
+    {font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+    min-width: 250px;
+    max-width: 400px;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.1);}
+
+#layersMenu {
+    background: #fff;
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    right: 10px;
+    border-radius: 3px;
+    width: 20%;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    font-family: 'Open Sans', sans-serif;
+    }
+    
+#layersMenu a {
+    font-size: 13px;
+    color: #404040;
+    display: block;
+    margin: 0;
+    padding: 0;
+    padding: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    text-align: center;}
+     
+#layersMenu a:last-child {
+    border: none;}
+     
+#layersMenu a:hover {
+    background-color: #f8f8f8;
+    color: #404040;}
+     
+#layersMenu a.active {
+    background-color: #3887be;
+    color: #ffffff;}
+     
+#layersMenu a.active:hover {
+    background: #3074a4;}
+
+.map-overlay {
+    font-size: 13px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #3887be;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    width: 20%;
+    top: 175px;
+    right: 10px;
+    padding: 0;
+    z-index: 1;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    }
+
+#slider {
+    width: 100%;
+    top: 150px;
+    right: 10px;
+    z-index: 1;
+    }
