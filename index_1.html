@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>PhD morphology tool</title>
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <script src="https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js"></script>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css" rel="stylesheet" />
+  <link rel="stylesheet" href="index.css">
+</head>
+
+
+<body>
+    <div id="map" ></div>
+    <nav id="layersMenu"></nav>
+    <div class="map-overlay">
+      <p>Tweet Slider</p>
+      <label id="Hour"></label>
+      <input id="slider" type="range" min="1" max="24" step="1" value="0" />
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
