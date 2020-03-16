@@ -104,3 +104,17 @@ dl
     right: 10px;
     z-index: 1;
     }
+
+.calculation-box {
+    height: 75px;
+    width: 20%;
+    position: absolute;
+    top: 270px;
+    right: 10px;
+    background-color: #3887be;
+    padding: 15px;
+    font-size: 13px;
+    color: #ffffff;
+    text-align: center;
+    padding: 0
+    }
